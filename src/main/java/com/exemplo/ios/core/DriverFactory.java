@@ -28,7 +28,7 @@ public class DriverFactory {
 		DesiredCapabilities capacidade = new DesiredCapabilities();
 
 		capacidade.setCapability("deviceName", "iPhone 13");
-		capacidade.setCapability("platformVersion", "15.2");
+		capacidade.setCapability("platformVersion", "15.4");
 		capacidade.setCapability("platformName", "iOS");
 		capacidade.setCapability("app", arquivoAplicacao.getAbsolutePath());
 		capacidade.setCapability("automationName", "XCUITest");
